@@ -42,7 +42,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 In Vue.js:
 ```js
 <script>
- import userHelperLibrary from "./userHelperLibrary/userHelperLibrary";
+ import userHelperLibrary from "userhelperlibrary";
 
   export default {
     name: "App",
