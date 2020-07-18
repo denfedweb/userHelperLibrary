@@ -89,6 +89,7 @@
     justify-content: center;
     min-height: 110px;
     cursor: pointer;
+    text-align: center;
 }
 
 .user-helper-midBtn i{
@@ -106,11 +107,15 @@
     background-color: transparent;
     border: none;
     outline: none;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 .user-helper-block-d-none {
     display: none;
 }
+
+
 
 /* core classes */
 .helper-core-invert{
@@ -141,6 +146,10 @@
 
 .helper-core-zoom{
     zoom: 120%;
+}
+
+.helper-core-blockAnim{
+  animation-play-state: paused !important;
 }
 
 .helper-core-titlesubline h1{

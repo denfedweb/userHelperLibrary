@@ -1,11 +1,8 @@
-# Simple user helper library
+# Web Accessibility for Visually Impaired People
 
-<img src="./demos/helper.png" alt="library">
+<img src="https://sun9-68.userapi.com/2rnoRWA3UmxxboBvlCl3L_O026FOUkDz2jx6Qw/zEYVYbPX5EY.jpg" alt="library">
 
 ## Installation
-
-This library needed font awesome icons!!
-https://fontawesome.com/
 
 Using npm:
 ```shell
@@ -16,6 +13,16 @@ $ npm i --save userhelperlibrary
 Using yarn: 
 ```shell
 $ yarn add userhelperlibrary
+```
+
+Options: 
+```js
+{
+  destroy: false, // true or false --> destroy library or not 
+  lang: 'en' // buttons language --> ru / en / ro --> default en
+}
+// example
+userhelperlibrary({destroy: true, lang: 'en'});
 ```
 
 In React:

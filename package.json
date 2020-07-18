@@ -1,17 +1,21 @@
 {
   "name": "userhelperlibrary",
-  "version": "1.0.0",
-  "description": "assistant for people with disabilities",
+  "version": "1.5.1",
+  "description": "Web Accessibility for Visually Impaired People",
   "main": "userHelperLibrary.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://github.com/denfedweb/userHelperLibrary",
   "keywords": [
     "helper",
     "disabilities",
     "toggle",
-    "font"
+    "font",
+    "accessibility",
+    "impaired",
+    "zoom"
   ],
   "author": "Denis Fedorovici <denfedweb@mail.ru>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0"
+  }
 }
